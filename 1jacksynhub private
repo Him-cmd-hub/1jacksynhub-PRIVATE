@@ -28,7 +28,7 @@ local MainWindow = Rayfield:CreateWindow({
  })
 
 
- local MainTab = MainWindow:CreateTab("Main", 4483362458) -- Title, Image
+ local MainTab = MainWindow:CreateTab("boblox ware private: version 0.32", 4483362458) -- Title, Image
 
 
  local Button = MainTab:CreateButton({
@@ -81,9 +81,10 @@ local MainWindow = Rayfield:CreateWindow({
  }) 
 
  local Button = MainTab:CreateButton({
-	Name = "Natural disaster survival",
+	Name = "Naturaldisaster",
 	Callback = function(v)
 		v = loadstring(game:HttpGet("https://rawscripts.net/raw/Natural-Disaster-Survival-Tbao-Hub-16822"))()
+	end,
  }) 
 
 
