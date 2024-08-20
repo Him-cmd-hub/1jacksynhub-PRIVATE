@@ -80,6 +80,12 @@ local MainWindow = Rayfield:CreateWindow({
 	end,
  }) 
 
+ local Button = MainTab:CreateButton({
+	Name = "Natural disaster survival",
+	Callback = function(v)
+		v = loadstring(game:HttpGet("https://rawscripts.net/raw/Natural-Disaster-Survival-Tbao-Hub-16822"))()
+ }) 
+
 
 
  local Toggle = MainTab:CreateToggle({
