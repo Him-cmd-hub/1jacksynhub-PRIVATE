@@ -94,6 +94,13 @@ local MainWindow = Rayfield:CreateWindow({
 	end,
  }) 
 
+ local Button = MainTab:CreateButton({
+	Name = "eazy hub",
+	Callback = function(v)
+		v = loadstring(game:HttpGet("https://raw.githubusercontent.com/Eazvy/public-scripts/main/Universal_Animations_Emotes.lua"))()
+	end,
+ }) 
+
 
 
  local Toggle = MainTab:CreateToggle({
